@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter user name Admin to username field [[ChromeDriver: chrome on WINDOWS (b0aaf22bf78bcacb8305d6082bf3e229)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password admin123 to password field [[ChromeDriver: chrome on WINDOWS (b0aaf22bf78bcacb8305d6082bf3e229)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button [[ChromeDriver: chrome on WINDOWS (b0aaf22bf78bcacb8305d6082bf3e229)] -> css selector: button[type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[The Dashboard Text is [[ChromeDriver: chrome on WINDOWS (b0aaf22bf78bcacb8305d6082bf3e229)] -> css selector: h6[class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_02_53_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_02_53_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_02_53_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Click on forgot password link[[ChromeDriver: chrome on WINDOWS (8e9f1395e6273328c1cfec97b28bb014)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]]]>
+    </line>
+    <line>
+      <![CDATA[The Reset Password Text is [[ChromeDriver: chrome on WINDOWS (8e9f1395e6273328c1cfec97b28bb014)] -> css selector: h6[class='oxd-text oxd-text--h6 orangehrm-forgot-password-title']]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullyTue_Dec_13_21_02_57_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullyTue_Dec_13_21_02_57_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullyTue_Dec_13_21_02_57_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Sanity Suite" duration-ms="9957" started-at="2022-12-13T21:02:48 GMT" finished-at="2022-12-13T21:02:58 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="ForgotPasswordTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@7e9a5fbe]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest"/>
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@646007f4]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="ForgotPasswordTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@7e9a5fbe]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest"/>
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@646007f4]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Sanity Test" duration-ms="9957" started-at="2022-12-13T21:02:48 GMT" finished-at="2022-12-13T21:02:58 GMT">
+      <class name="com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@646007f4]" name="setUp" is-config="true" duration-ms="3428" started-at="2022-12-13T21:02:48 GMT" finished-at="2022-12-13T21:02:51 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@646007f4]" name="inIt" is-config="true" duration-ms="15" started-at="2022-12-13T21:02:51 GMT" finished-at="2022-12-13T21:02:51 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@646007f4]" name="userShouldLoginSuccessfullyWithValidCredentials" duration-ms="1383" started-at="2022-12-13T21:02:51 GMT" finished-at="2022-12-13T21:02:53 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter user name Admin to username field [[ChromeDriver: chrome on WINDOWS (b0aaf22bf78bcacb8305d6082bf3e229)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password admin123 to password field [[ChromeDriver: chrome on WINDOWS (b0aaf22bf78bcacb8305d6082bf3e229)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button [[ChromeDriver: chrome on WINDOWS (b0aaf22bf78bcacb8305d6082bf3e229)] -> css selector: button[type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[The Dashboard Text is [[ChromeDriver: chrome on WINDOWS (b0aaf22bf78bcacb8305d6082bf3e229)] -> css selector: h6[class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_02_53_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_02_53_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_02_53_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest@646007f4]" name="tearDown" is-config="true" duration-ms="627" started-at="2022-12-13T21:02:53 GMT" finished-at="2022-12-13T21:02:54 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmlive.opensourcedemo.testsuite.LoginPageTest -->
+      <class name="com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@7e9a5fbe]" name="setUp" is-config="true" duration-ms="1987" started-at="2022-12-13T21:02:54 GMT" finished-at="2022-12-13T21:02:56 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@7e9a5fbe]" name="inIt" is-config="true" duration-ms="0" started-at="2022-12-13T21:02:56 GMT" finished-at="2022-12-13T21:02:56 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@7e9a5fbe]" name="userShouldNavigateToForgotPasswordPageSuccessfully" duration-ms="704" started-at="2022-12-13T21:02:56 GMT" finished-at="2022-12-13T21:02:57 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on forgot password link[[ChromeDriver: chrome on WINDOWS (8e9f1395e6273328c1cfec97b28bb014)] -> xpath: //p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']]]]>
+            </line>
+            <line>
+              <![CDATA[The Reset Password Text is [[ChromeDriver: chrome on WINDOWS (8e9f1395e6273328c1cfec97b28bb014)] -> css selector: h6[class='oxd-text oxd-text--h6 orangehrm-forgot-password-title']]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullyTue_Dec_13_21_02_57_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullyTue_Dec_13_21_02_57_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project4-orangehrm-pagefactory-nauman/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullyTue_Dec_13_21_02_57_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToForgotPasswordPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest@7e9a5fbe]" name="tearDown" is-config="true" duration-ms="593" started-at="2022-12-13T21:02:57 GMT" finished-at="2022-12-13T21:02:58 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordTest -->
+    </test> <!-- Sanity Test -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>
